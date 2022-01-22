@@ -266,6 +266,341 @@ button {
     font-weight: bold;
 }
 
+/* Latest Stories */
+#latest-stories {
+    width: 75%;
+    margin: 0 auto 0 auto;
+    padding: 64px;
+}
+
+#latest-stories h1 {
+    font-size: 32px;
+}
+
+#latest-stories-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 0 32px 0;
+}
+
+.story {
+    width: 280px;
+    height: 237px;
+    margin: 0 32px 32px 0;
+    cursor: pointer;
+}
+
+.story-image {
+    background: rgb(128, 128, 128);
+    width: 100%;
+    height: 157px;
+}
+
+.story-info {
+    padding: 4px;
+}
+
+.story-category {
+    color: rgb(0, 204, 204);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 0 4px 0;
+}
+
+.story-category:hover {
+    color: #000;
+}
+
+.story-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.story-title:hover {
+    text-decoration: underline;
+}
+
+#all-news-button-container {
+    width: 100%;
+    text-align: center;
+}
+
+#all-news-button {
+    background: rgb(204, 0, 153);
+    padding: 12px 24px 12px 24px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 32px;
+    transition: color 0.1s ease-in;
+}
+
+#all-news-button:hover {
+    color: #000;
+}
+
+/* Explore */
+#explore {
+    background: rgb(240, 240, 240);
+}
+
+#explore-content {
+    width: 85%;
+    margin: 0 auto 0 auto;
+    padding: 64px;
+}
+
+#explore h1 {
+    padding: 32px 0 32px 0;
+    font-size: 32px;
+}
+
+#channels-list {
+    display: flex;
+    width: 100%;
+    padding: 32px 0 32px 0;
+    overflow-x: hidden;
+}
+
+.channel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: rgb(128, 128, 128);
+    width: 291px;
+    height: 232px;
+    margin-right: 16px;
+    text-align: center;
+}
+
+.channel-description {
+    padding: 32px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Newsletter */
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(64, 64, 64);
+    padding: 64px;
+    color: #fff;
+    text-align: center;
+}
+
+#newsletter h1 {
+    font-size: 38px;
+    padding: 12px 0 12px 0;
+}
+
+#newsletter-description {
+    padding-bottom: 12px;
+}
+
+#newsletter-description a {
+    color: rgb(0, 204, 204);
+}
+
+#newsletter-description a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+#newsletter-form {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 40%;
+    height: 48px;
+    border-radius: 4px;
+}
+
+#newsletter-icon {
+    width: 12px;
+    height: 12px;
+    padding: 0 12px 0 12px;
+}
+
+#newsletter-input {
+    background: none;
+    width: calc(80% - 12px);
+    height: 100%;
+    border: 0;
+}
+
+#newsletter-subscribe-button {
+    background: rgb(204, 0, 153);
+    width: 20%;
+    height: 100%;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+}
+
+#newsletter-subscribe-button:hover {
+    background: rgb(76, 172, 255);
+}
+
+/* Made for You */
+#made-for-you {
+    background: rgb(240, 240, 240);
+    padding: 64px;
+}
+
+#made-for-you-content {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#made-for-you-box {
+    display: flex;
+    width: 100%;
+    height: 646px;
+}
+
+#made-for-you-video {
+    background: #000;
+    width: 75%;
+    height: 100%;
+}
+
+#made-for-you-sidebar {
+    background: rgb(128, 128, 128);
+    width: 25%;
+    height: 100%;
+}
+
+/* Work With Us */
+#work-with-us {
+    display: flex;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 64px;
+}
+
+.work-with-us-section {
+    width: 50%;
+}
+
+#work-with-us h3 {
+    color: rgb(204, 0, 153);
+    font-size: 16px;
+}
+
+#work-with-us h1 {
+    padding: 16px 0 32px 0;
+    font-size: 32px;
+}
+
+#work-with-us-description {
+    color: rgb(96, 96, 96);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#get-in-touch-button {
+    background: rgb(0, 204, 204);
+    margin-top: 32px;
+    padding: 16px 32px 16px 32px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#get-in-touch-button:hover {
+    background: rgb(0, 221, 221);
+}
+
+#work-with-us-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-with-us-items-section {
+    display: flex;
+    height: 50%;
+}
+
+.work-with-us-item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+#footer {
+    display: flex;
+    justify-content: center;
+    background: #000;
+    padding: 64px;
+}
+
+#footer-content {
+    display: flex;
+    width: 75%;
+}
+
+.footer-section {
+    width: 50%;
+}
+
+#footer-logo {
+    width: 160px;
+    height: auto;
+}
+
+#footer h1 {
+    padding: 32px 0 32px 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+#footer-section-right {
+    display: flex;
+}
+
+.footer-list {
+    width: 50%;
+}
+
+.footer-list h3 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-list li {
+    margin-bottom: 12px;
+}
+
+.footer-list li a {
+    color: rgb(0, 204, 204);
+}
+
+.footer-list li a:hover {
+    text-decoration: underline;
+}
+
+#footer-copyright {
+    background: #000;
+    padding: 64px 0 64px 0;
+    color: rgb(192, 192, 192);
+    border-top: 1px solid rgb(128, 128, 128);
+    text-align: center;
+}
+
+#footer-copyright a {
+    color: rgb(0, 204, 204);
+}
+
+#footer-copyright a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive CSS */
 @media screen and (max-width: 1000px) {
     /* Navigation Bar */
@@ -326,5 +661,55 @@ button {
     #popular-articles-list li {
         width: 100%;
         margin: 0 0 24px 0;
+    }
+
+    /* Newsletter */
+    #newsletter-form {
+        width: 75%;
+    }
+
+    /* Made for You */
+    #made-for-you-content {
+        width: 100%;
+    }
+
+    #made-for-you-box {
+        flex-direction: column;
+    }
+    
+    #made-for-you-video {
+        width: 100%;
+    }
+    
+    #made-for-you-sidebar {
+        width: 100%;
+    }
+
+    /* Work With Us */
+    #work-with-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .work-with-us-section {
+        width: 100%;
+    }
+
+    #work-with-us-items {
+        margin-top: 32px;
+    }
+
+    .work-with-us-item {
+        justify-content: center;
+    }
+
+    /* Footer */
+    #footer-content {
+        display: block;
+        width: 100%;
+    }
+
+    .footer-section {
+        width: 100%;
     }
 }
